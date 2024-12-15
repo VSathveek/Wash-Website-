@@ -1,0 +1,288 @@
+#Top{
+    display:flex;
+    flex-direction: row;
+    justify-content:end;
+    font-size:25px;
+    height:40px;
+    padding-bottom: -10px;
+    border-width:100px;
+}
+#services{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius:25px;
+    width:500px;
+}
+#top-left{
+    font-size: 22px;
+    background-color: transparent;
+    border-radius:18px;
+    cursor: pointer;
+    background-image:linear-gradient(to bottom right,rgb(109, 234, 222),rgb(29, 161, 255));
+    border:none;
+    height:40px;
+    width:150px;
+    margin-bottom:5px;
+}
+
+#showcase{
+    width:500px;
+    height:500px;
+    border-radius: 100px;
+    cursor:pointer;
+}
+#slide{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+#captions{
+    display: flex;
+    flex-direction: column;
+}
+#slogan{
+    font-family: "Indie Flower", cursive;
+    font-weight: 400;
+    font-style: normal;
+    margin-left:500px;
+    font-size:80px;
+    margin-bottom:none;
+
+}
+#Title{
+    width:140px;
+    height:140px;
+    border-radius: 130px;
+    margin-left:50px;
+    position:absolute;
+    top:0px;
+    left:0px;
+    right:0px;
+}
+#line{
+    width:800px;
+    height:2px;
+    background-color: rgb(155, 165, 173);
+    margin-top:70px;
+    margin-left:375px;
+    margin-bottom: none;
+}
+#pic1{
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:950px;
+    left:300px;
+    transform: rotate(0deg);
+}
+#pic2{
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:800px;
+    right:200px;
+    transform: rotate(0deg);
+}
+#pic3{
+    width:150px;
+    height:150px;
+    position:absolute;
+    top:750px;
+    left:300px;
+    transform: rotate(0deg);
+}
+#whatsapp-icon{
+    position: fixed;
+    bottom:20px;
+    left:20px;
+    height:70px;
+    width:70px;
+}
+#booking{
+    position:absolute;
+    top:20px;
+    left:620px;
+    font-size: 35px;
+    cursor:pointer;
+    background-image:linear-gradient(to bottom right,rgb(109, 234, 222),rgb(29, 161, 255));
+    border:none;
+    border-radius: 20px;
+    padding-left:10px;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-right:10px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:25px;
+    transition: width 2s;
+    text-decoration: none;
+}
+
+#Pleat{
+    position:absolute;
+    top:150px;
+    left:30px;
+    font-size:50px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    font-style: normal;
+}
+#washing{
+    position:absolute;
+    top:150px;
+    left:550px;
+    font-size: 50px;
+    color:rgb(255, 255, 251);
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:25px;
+}
+
+
+
+p {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+
+
+#drying{
+    position:absolute;
+    top:150px;
+    left:1050px;
+    font-size: 50px;
+    color:rgb(255, 255, 251);
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    border-radius:25px;
+}
+#sent{
+    position:absolute;
+    top:270px;
+    left:30px;
+    font-size:20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    color:rgba(94, 84, 84, 0.577);
+    font-style: normal;
+    width:400px;
+    opacity:0;
+}
+#sente{
+    position:absolute;
+    top:270px;
+    left:550px;
+    font-size:20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    color:rgba(94, 84, 84, 0.577);
+    font-style: normal;
+    width:400px;
+    opacity:0;
+}
+#senten{
+    position:absolute;
+    top:270px;
+    left:1050px;
+    font-size:20px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-weight: 500;
+    color:rgba(94, 84, 84, 0.577);
+    font-style: normal;
+    width:400px;
+    opacity:0;
+}
+.book:hover{
+    box-shadow: 10px 10px 5px rgba(106, 106, 106, 0.16);
+    transition: box-shadow 1ms;
+}
+.name:hover{
+    opacity:0;
+}
+#how{
+    
+    margin-bottom:none;
+    margin-left:40px;
+    
+    font-size:20px;
+    height:auto;
+    font-family: "Montserrat Alternates", sans-serif;
+    padding-top: 20px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-row:auto;
+    grid-column-gap: 20px;
+    grid-row-gap: 40px;
+    
+}
+#work{
+    border-radius:30px;
+}
+#how_we_work{
+    background-image:linear-gradient(to bottom right,rgb(109, 234, 222),rgb(29, 161, 255));
+    border-radius:50px;
+    margin:none;
+}
+#how_we{
+font-family: "Montserrat Alternates", sans-serif;
+padding-top: 20px;
+font-size:60px;
+padding-left: 500px;
+}
+#work{
+height:320px;
+width:550px;
+}
+#booking_details{
+    position:absolute;
+    top:200px;
+    left:500px;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size:35px;
+}
+#booking_each{
+    margin-bottom: 10px;
+}
+#detail{
+    width:400px;
+    height:50px;
+    border-radius:20px;
+    border:solid;
+    border-color: rgb(103, 208, 226);
+    font-size: 18px;
+    padding-left:10px;
+    margin-bottom:15px;
+}
+
+
+
+
+
+
+
+
+p {
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  animation-name: slidein;
+}
+
+@keyframes slidein {
+  from {
+    translate: 150vw 0;
+    scale: 200% 1;
+  }
+
+  to {
+    translate: 0 0;
+    scale: 100% 1;
+  }
+}
